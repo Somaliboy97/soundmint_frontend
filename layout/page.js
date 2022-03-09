@@ -49,7 +49,7 @@ const Page = ({ children }) => {
       );
       const vinylminter = new web3.eth.Contract(
         VinylABI,
-        '0xdCd532368eEaf94EB3489274D5b258a346e1FEE3' // process.env.VINYL_MINT_CONTRACT_ADDRESS
+        '0x50786ceabc0c262b265870cadc9517a96029c893' // process.env.VINYL_MINT_CONTRACT_ADDRESS
       );
 
       setWeb3(web3);
